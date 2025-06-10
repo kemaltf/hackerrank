@@ -24,6 +24,8 @@ print(user_input)
 shoe_sizes = list(map(int, input().split()))
 # Hasil: shoe_sizes = [2, 3, 4, 5, 6, 8, 7, 6, 5, 18]
 # (list berisi integer)
+
+
 shoe_sizes = list(map(int, input().split()))
 print(shoe_sizes)
 m = int(input())
