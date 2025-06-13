@@ -3,6 +3,8 @@ from collections import Counter
 # the number of shoes
 x = int(input())
 
+
+
 # the number of shoe size
 y = list(map(int, input().split()))
 yCount = Counter(y) # pair size and stock
