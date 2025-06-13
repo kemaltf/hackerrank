@@ -70,5 +70,18 @@ def door(totalBaris, totalKolom):
 
 
 baris, kolom = input().split(" ")
-door(int(baris), int(kolom))
+N = int(baris)
+M = int(kolom)
+
+for i in range(1, N // 2 + 1):
+    pattern = ".|." * (2 * i - 1)
+    print(pattern.center(M, "-"))
+
+print("WELCOME".center(M, "-"))
+
+for i in range(N // 2, 0, -1):
+    pattern = ".|." * (2 * i - 1)
+    print(pattern.center(M, "-"))
+
+# door(int(baris), int(kolom))
 # door(baris, kolom)
